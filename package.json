@@ -1,0 +1,11 @@
+{
+  "name": "gitpod",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/demerval/gitpod.git",
+  "author": "Demerval <demervalgomes@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ant-design/react-native": "^3.2.0"
+  }
+}
