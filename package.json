@@ -6,6 +6,8 @@
   "author": "Demerval <demervalgomes@hotmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@ant-design/react-native": "^3.2.0"
+    "@ant-design/react-native": "^3.2.0",
+    "expo": "^36.0.2",
+    "react-native-iphone-x-helper": "^1.2.1"
   }
 }
