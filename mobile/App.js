@@ -1,19 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { StatusBar } from 'react-native';
 
-import { Container, ContainerText, ButtonTeste, ButtonTesteText } from './styles.js';
+import AppContainer from './Routes';
 
-export default function App() {
+export default class App extends Component {
 
-	function onClick() {
-		console.log('click');
-	}
-
-	return (
-		<Container>
-			<ContainerText>Teste APP Mobile</ContainerText>
-			<ButtonTeste onPressOut={onClick}>
-				<ButtonTesteText>Teste</ButtonTesteText>
-			</ButtonTeste>
-		</Container>
-	);
+  render() {
+    return (
+      <>
+        <StatusBar barStyle='light-content' backgroundColor='#6A5ACD' />
+        <AppContainer />
+      </>
+    )
+  }
 }
